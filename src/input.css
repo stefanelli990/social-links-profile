@@ -1,0 +1,19 @@
+@tailwind base;
+h1 {
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: 700;
+}
+p {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    line-height: 140%;
+}
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-outfit;
+    }
+}
