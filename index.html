@@ -3,23 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QR code component</title>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Social links profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link href="src/output.css" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="src/assets/favicon-32x32.png">
 </head>
-<body class="bg-slate-300 p-4 text-center min-h-screen flex justify-center items-center flex-col gap-4">
+<body class="p-6 min-h-screen flex justify-center items-center flex-col gap-4 text-center">
   <main class="flex-1 grid place-content-center">
-    <div class="bg-white max-w-[320px]  p-4 pb-0 rounded-[20px] shadow-custom">
-        <img class="rounded-[10px]" src="src/assets/image-qr-code.png" alt="QR Code">
-        <div class="px-4 mt-6 mb-10">
-            <h1 class="text-slate-900 mb-4">Improve your front-end skills by building projects</h1>
-            <p class="text-slate-500">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-        </div>
+    <div class="bg-gray-800 p-6 sm:p-8 rounded-[12px] flex items-center flex-col">
+        <img class="w-24 h-24 mb-8 rounded-full" src="src/assets/avatar-jessica.jpeg" alt="Avatar">
+        <div class="text-[24px] font-semibold mb-3" alt="Jessica Randall's profile picture">Jessica Randall</div>
+        <div class="text-green font-medium">London, United Kingdom</div>
+        <div class="px-1.5 py-6 sm:p-6 opacity-75">"Front-end developer and avid reader."</div>
+        <nav aria-label="Social media links" class="w-full">
+        <ul class="space-y-3">
+          <li><a href="https://www.github.com/" aria-label="Link to Jessica Randall's GitHub profile" target="_blank" class="p-3 block font-semibold bg-gray-700 rounded-[8px] cursor-pointer hover:bg-green hover:text-gray-900">GitHub</a></li>
+          <li><a href="https://www.frontendmentor.io/" target="_blank" class="p-3 block font-semibold bg-gray-700 rounded-[8px] cursor-pointer hover:bg-green hover:text-gray-900">Frontend Mentor</a></li>
+          <li><a href="https://www.linkedin.com/" aria-label="Link to Jessica Randall's Linkedin profile" target="_blank" class="p-3 block font-semibold bg-gray-700 rounded-[8px] cursor-pointer hover:bg-green hover:text-gray-900">LinkedIn</a></li>
+          <li><a href="https://www.twitter.com/" aria-label="Link to Jessica Randall's Twitter profile" target="_blank" class="p-3 block font-semibold bg-gray-700 rounded-[8px] cursor-pointer hover:bg-green hover:text-gray-900">Twitter</a></li>
+          <li><a href="https://www.instagram.com/" aria-label="Link to Jessica Randall's Instagram profile" target="_blank" class="p-3 block font-semibold bg-gray-700 rounded-[8px] cursor-pointer hover:bg-green hover:text-gray-900">Instagram</a></li>
+        </ul>
+      </nav>
     </div>
   </main>
-  <footer>
-    <p class="text-slate-500">Challenge by <a class="underline" href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank">Frontend Mentor</a>. Coded by <a class="underline" href="https://github.com/stefanelli990" target="_blank">stefanelli990</a>.</p>
+  <footer class="max-w-[250px] sm:max-w-none">
+    <p>Challenge by <a class="underline" href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ" target="_blank">Frontend Mentor</a>. Coded by <a class="underline" href="https://github.com/stefanelli990" target="_blank">stefanelli990</a>.</p>
   </footer>
 </body>
 </html>

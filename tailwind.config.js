@@ -7,18 +7,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        outfit: ['Outfit', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
       },
       colors: {
-        slate: {
-          300: '#D5E1EF',
-          500: '#68778D',
-          900: '#1F314F'
+        gray: {
+          700: 'hsl(0, 0%, 20%)',
+          800: 'hsl(0, 0%, 12%)',
+          900: 'hsl(0, 0%, 8%)'
         },
-      },
-      boxShadow: {
-        'custom': 'rgba(0, 0, 0, 4.77%) 0px 0px 25px'
-      },
+        green: 'hsl(75, 94%, 57%)'
+      }
     },
   },
   plugins: [],
